@@ -1,0 +1,12 @@
+[submodule "platform-windows"]
+	path = platform-windows
+	url = ../platform-windows
+[submodule "storage-windows"]
+	path = storage-windows
+	url = ../storage-windows
+[submodule "third-windows"]
+	path = third-windows
+	url = ../third-windows
+[submodule "tool-windows"]
+	path = tool-windows
+	url = ../tool-windows
