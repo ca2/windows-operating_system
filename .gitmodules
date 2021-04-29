@@ -10,3 +10,6 @@
 [submodule "tool-windows"]
 	path = tool-windows
 	url = ../tool-windows
+[submodule "platform-windows_common"]
+	path = platform-windows_common
+	url = ../platform-windows_common
