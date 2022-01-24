@@ -1,15 +1,9 @@
-[submodule "platform-windows"]
-	path = platform-windows
-	url = ../platform-windows
 [submodule "third-windows"]
 	path = third-windows
 	url = ../third-windows
 [submodule "tool-windows"]
 	path = tool-windows
 	url = ../tool-windows
-[submodule "platform-windows_common"]
-	path = platform-windows_common
-	url = ../platform-windows_common
 [submodule "operating-system-windows"]
 	path = operating-system-windows
 	url = ../operating-system-windows
