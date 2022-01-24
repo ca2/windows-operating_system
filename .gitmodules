@@ -10,3 +10,9 @@
 [submodule "platform-windows_common"]
 	path = platform-windows_common
 	url = ../platform-windows_common
+[submodule "operating-system-windows"]
+	path = operating-system-windows
+	url = ../operating-system-windows
+[submodule "operating-system-windows_common"]
+	path = operating-system-windows_common
+	url = ../operating-system-windows_common
