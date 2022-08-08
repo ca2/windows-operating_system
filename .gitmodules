@@ -1,6 +1,3 @@
-[submodule "third-windows"]
-	path = third-windows
-	url = ../third-windows
 [submodule "tool-windows"]
 	path = tool-windows
 	url = ../tool-windows
