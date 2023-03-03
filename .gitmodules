@@ -1,6 +1,3 @@
-[submodule "tool-windows"]
-	path = tool-windows
-	url = ../tool-windows
 [submodule "operating-system-windows"]
 	path = operating-system-windows
 	url = ../operating-system-windows
