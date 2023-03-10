@@ -1,6 +1,6 @@
-[submodule "operating-system-windows"]
-	path = operating-system-windows
-	url = ../operating-system-windows
-[submodule "operating-system-windows_common"]
-	path = operating-system-windows_common
-	url = ../operating-system-windows_common
+[submodule "operating_system-windows"]
+	path = operating_system-windows
+	url = ../operating_system-windows
+[submodule "operating_system-windows_common"]
+	path = operating_system-windows_common
+	url = ../operating_system-windows_common
