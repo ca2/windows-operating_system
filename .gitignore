@@ -24,3 +24,15 @@ solution.vc.db*
 *.expand_fileset
 *.expand_fileset.spa
 Thumbs.db
+time-*/
+workspace.xml
+cmake-build-*/
+cmake-time-*/
+**/CMakeFiles
+**/doxygen.directory
+.visualgdb/
+_packages.txt
+deployment.rc
+application_build_helper_input.txt
+application_build_helper_output.txt
+matter_output.txt
