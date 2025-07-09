@@ -24,6 +24,11 @@ add_subdirectory(operating_system-windows/input_win32)
 add_subdirectory(operating_system-windows_common/imaging_wic)
 endif()
 
+
+if(${INCLUDE_OPENGL} OR ${INCLUDE_DIRECTX11} OR ${INCLUDE_DIRECT2D} OR ${INCLUDE_VULKAN})
+    add_subdirectory(operating_system-windows/typeface_gdiplus)
+endif()
+
 if(${INCLUDE_DIRECTX11} OR ${INCLUDE_DIRECT2D})
     add_subdirectory(operating_system-windows_common/directx11)
     add_subdirectory(operating_system-windows_common/gpu_directx11)
@@ -32,10 +37,12 @@ endif()
 if(${INCLUDE_DIRECT2D})
     add_subdirectory(operating_system-windows_common/direct2d)
     add_subdirectory(operating_system-windows_common/draw2d_direct2d)
+    add_subdirectory(operating_system-windows_common/write_text_direct2d)
 endif()
 
 if(${INCLUDE_DIRECTX11})
     add_subdirectory(operating_system-windows_common/draw2d_directx11)
+    add_subdirectory(operating_system-windows_common/write_text_directx11)
 endif()
 
 if(${INCLUDE_DIRECTX12})
