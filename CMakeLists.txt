@@ -17,7 +17,9 @@ add_subdirectory(operating_system-windows/operating_ambient_windows)
 add_subdirectory(operating_system-windows/windowing_win32)
 add_subdirectory(operating_system-windows/write_text_win32)
 add_subdirectory(operating_system-windows/draw2d_gdiplus)
+if(${INCLUDE_AUDIO})
 add_subdirectory(operating_system-windows/audio_mmsystem)
+endif()
 add_subdirectory(operating_system-windows/input_win32)
 
 
