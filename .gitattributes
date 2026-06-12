@@ -1,0 +1,11 @@
+* text=auto eol=crlf
+
+*.sh text eol=lf
+*.bash text eol=lf
+*.zsh text eol=lf
+*.command text eol=lf
+Dockerfile text eol=lf
+Makefile text eol=lf
+*.mk text eol=lf
+*.cmake text eol=lf
+CMakeLists.txt text eol=lf
